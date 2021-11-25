@@ -19,8 +19,6 @@ green = (230, 255, 230)
 pygame.init()
 screen = pygame.display.set_mode((600, 700))
 pygame.display.set_caption("Tic Tac Toe")
-# Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-pygame.display.set_icon(pygame.image.load('tic-tac-toe.png'))
 font = pygame.font.SysFont('text.ttf', 65)
 fontSmall = pygame.font.SysFont('text.ttf', 35)
 fontMed = pygame.font.SysFont('text.ttf', 45)
